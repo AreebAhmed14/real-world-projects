@@ -1,0 +1,69 @@
+.row{
+    padding: 0.4rem;
+}
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: palevioletred;
+    text-decoration: overline;
+    text-decoration-thickness: 0.5rem;  
+
+}
+h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: palevioletred;
+    font-weight: bold; 
+    margin-bottom: 1rem;
+}
+.main{
+    display: inline-block;
+    border: 0.5rem solid palevioletred;
+    border-radius: 1rem;
+
+}
+.upper-space{
+    height: 2rem;
+}
+
+.button{
+    padding: 0rem 2rem;
+    margin: 0.2rem;
+    border: 0.3rem solid palevioletred;
+    color: palevioletred;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.space{
+    height: 3rem;
+}
+.text-area input{
+    padding: 0.3rem;
+    width: 22rem;
+    border: 0.3rem solid palevioletred;
+    border-radius: 1rem;
+    resize: vertical;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: palevioletred;
+}
+@media(max-width:414px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width:336px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width:296px){
+    html{
+        font-size: 60%;
+    }
+}

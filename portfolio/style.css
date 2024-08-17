@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: rgba(8, 247, 235, 0.829);
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 2rem
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    width: 60%;
+    height: 55vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 25%;
+    height: 55vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0.5rem solid rgba(8, 247, 235, 0.829);
+    border-radius:5%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.text{
+    color: white;
+    line-height: 8vh;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2rem;
+}
+.text button{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: rgba(8, 247, 235, 0.829);
+    font-weight: bolder;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    width: 12vw;
+    height: 5vh;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    background-color: black;
+}
+.skill-heading{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    border-top: 0.5rem solid rgba(8, 247, 235, 0.829);
+    color: rgba(8, 247, 235, 0.829);
+    justify-content: center;
+    align-items: center;
+}
+.progress-work{
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.progress-work progress{
+    width: 80vw;
+    height: 10vh;
+}
+.project-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.beat{
+    width: 80%;
+    border: 0.4rem solid rgba(8, 247, 235, 0.829);
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: rgba(8, 247, 235, 0.829);
+    border-radius: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.beat h2{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.beat p{
+    margin: 2rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.beat button{
+    margin-bottom: 1.5rem;
+    width: 7rem;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(8, 247, 235, 0.829);
+    font-weight: bolder;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(53, 53, 48);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(8, 247, 235, 0.829);
+}
+.contact{
+    width: 45%;
+    /* background-color: rgba(8, 247, 235, 0.829); */
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+
+}
+.seeoff{
+    width: 45%;
+    /* background-color: rgba(8, 247, 235, 0.829); */
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin: 1.5rem;
+}
+.footer-headeing{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: white;
+}
+
+@media(max-width:1158px){
+    html{
+        font-size: 90%;
+    }
+    .beat button{
+        width: 8rem;
+    }
+    .text button{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:864px){
+    .text button{
+        font-size: 0.8rem;
+    }
+    .text{
+        font-size: 1.1rem;
+    }
+    .last-heading{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:774px){
+    .main{
+        flex-direction: column;
+    }
+    .container{
+        width: 90%;
+       
+    }
+    .text{
+        font-size: 1.3rem;
+    }
+    .text button{
+        width: 15vw;
+        height: 6vh;
+        font-weight: bolder;
+    }
+    .image{
+        width: 50%;
+        height: 65vh; 
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+    .contact{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seeoff{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .last-heading{
+        font-size: 1.5rem;
+        
+    }
+}
+@media(max-width:678px){
+    .text{
+        font-size: 1.1rem;
+    }
+    .footer-headeing{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:616px){
+    .text button{
+        width: 30%;
+    }
+   
+}
+@media(max-width:498px){
+    .text{
+        font-size: 0.9rem;
+    }
+    .text button{
+        width: 40%;
+    }
+    .name h2{
+        font-size: 2rem;
+    }
+    .image{
+        width: 80vw;
+        height: 55vh;
+    }
+}
+@media(max-width:430px){
+    .last-heading{
+        font-size: 1.3rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .seeoff p{ 
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:354px){
+    html{
+        font-size: 80%;
+    }
+    .beat button{
+        width: 100%;
+    }
+    
+    
+}
+@media(max-width:320px){
+    html{
+        font-size: 80%;
+    }
+}

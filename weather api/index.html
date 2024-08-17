@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREEBIX.WEATHER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+   <div class="main">
+    <center>
+        <h1>AREEBIX.WEATHER</h1>
+    </center>
+    <div class="container">
+        <div class="content">       
+            <div class="input">
+                <input type="text" id="city" placeholder="Enter city name">
+                <button id="btn">search</button>
+            </div>
+
+            <div class="city-name">
+                <h2 id="cityName">...</h2>
+            </div>
+
+            <div class="degree">
+                <h2 id="deg">...°C</h2>
+            </div>
+
+            <div class="desc">
+                <h2 id="des">...</h2>
+            </div>
+
+            <div class="threebox">
+                <div class="humidity">
+                    <div class="fix-text"><p>HUMIDITY</p></div>
+                    <div class="change-text"><h4 id="humidity">...%</h4></div>
+                </div>
+                <div class="wind">
+                    <div class="fix-text"><p>WIND</p></div>
+                    <div class="change-text"><h4 id="wind">...km/h</h4></div>
+                </div>
+                <div class="feel">
+                    <div class="fix-text"><p>FEEL LIKE</p></div>
+                    <div class="change-text"><h4 id="feel">...°C</h4></div>
+                </div>
+            </div>
+
+            
+        </div>
+        <center>
+            <h4 class="last-line">YOUR PERSONAL WEATHER ASSISTANT FOR EVERY FORECAST!</h4>
+        </center>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
