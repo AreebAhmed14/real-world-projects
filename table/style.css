@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(170, 170, 154);
+}
+.main{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.main h1{
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.table {
+    width: 35%;
+    /* height: 70vh; */
+    background-color: red;
+    margin-top: 3rem;
+    border: 0.5rem solid rgb(255, 255, 255);
+    border-radius: 0.8rem;
+}
+#final{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.anima {
+    background: linear-gradient(270deg, #23d0d6, #04185a, #510464);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@-moz-keyframes AnimationName {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes AnimationName {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.table input{
+    width: 50%;
+    margin: 1rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    height: 3vh;
+    color: slategrey;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.table button{
+    width: 20%;
+    height: 6vh;
+    border: 0.2rem solid rgb(255, 255, 255);
+    background-color: white;
+    font-weight: bold;
+    color: slategrey;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding: 0.2rem;
+    /* padding-bottom: 1rem; */
+}
+.area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.last{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+@media(max-width:1110px){
+    html{
+        font-size: 90%;
+    }
+}
+@media(max-width:1070px){
+    html{
+        font-size: 80%;
+    }
+    .table{
+        width: 50%;
+    }
+}
+@media(max-width:655px){
+    html{
+        font-size: 75%;
+    }
+    .table{
+        width: 70%;
+    }
+}
+@media(max-width:540px){
+    .table input{
+        width: 60%;
+    }
+    .table button{
+        width: 23%;
+        height: 5vh;
+    }
+}
+@media(max-width:420px){
+    .table{
+        width: 90%;
+    }
+    html{
+        font-size: 72%;
+    }
+}
