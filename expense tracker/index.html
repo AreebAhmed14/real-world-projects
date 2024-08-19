@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE-TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+        <h1>AREEBIX EASE EXPENSE</h1>
+        <a href="Guide.pdf" target="_blank"><button>GUIDE</button></a>
+    </header>
+        <div class="main">
+
+
+            <div class="total-amount">
+                <div class="balance total">TOTAL BALANCE = PKR : <span id="balance">0</span></div>
+                <div class="expense total">TOTAL EXPENSE = PKR : <span id="expense">0</span></div>
+            </div>
+
+            <div class="add-box">
+                <h3>ADD BALANCE</h3>
+                <input type="number" id="addAmount" placeholder="Enter Amount">
+                <input type="text" id="addMessage" placeholder="Remembering message">
+                <button id="addbutton">ADD</button>
+            </div>
+            <div class="add-box">
+                <h3>ADD EXPENSE</h3>
+                <input type="number" id="addExpen" placeholder="Enter Amount">
+                <input type="text" id="expenMessage" placeholder="Remembering message">
+                <button id="expenbutton">ADD</button>
+            </div>
+
+
+            <div class="history">
+                <h3>TRANSACTION HISTORY</h3>
+                <div class="scrolling-history" id="history"></div>
+            </div>
+
+
+            <div class="checkout">
+                <h3>CALCULATE SAVINGS</h3>
+                <button id="calculate">CALCULATE</button>
+                <p class="last-message" id="usermessage"></p>
+            </div>
+
+
+            <i class="fa-solid fa-trash last-icon" id="icon"></i>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
