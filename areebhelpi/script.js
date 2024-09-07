@@ -55,7 +55,7 @@ let songs_image = [
     { filePath: "image/5.jfif" },
     { filePath: "image/6.jfif" },
     { filePath: "image/7.jpg" },
-    { filePath: "image/8.jfif" },
+    { filePath: "image/8.jfif"},
     { filePath: "image/9.jfif" },
     { filePath: "image/10.jfif" },
 

@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Areebix.Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="name"><h2>AREEBIX.INFO</h2></div>
+        <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+                <a href=""><li>EDUCATION</li></a>
+                <a href=""><li>WORK</li></a>
+            </ul>
+            <div class="openicon">
+            <i class="fa-solid fa-bars" id="open"></i>
+        </div>
+        </nav>
+        <div class="box" id="boxx">
+            <div class="items"><i class="fa-solid fa-xmark" id="close"></i></div>
+            <div class="items"><a href="">HOME</a></div>
+            <div class="items"><a href="">ABOUT ME</a></div>
+            <div class="items"><a href="">EDUCATION</a></div>
+            <div class="items"><a href="">WORK</a></div>
+        </div>
     </header>
 
     <div class="main">
@@ -32,19 +51,28 @@
     <div class="skills">
         <div class="progress-work">
             <h2>HTML</h2>
-            <progress value="80" max="100"></progress>
+            <div class="back">
+                <div class="innerhtml"></div>
+            </div>
         </div>
         <div class="progress-work">
             <h2>CSS</h2>
-            <progress value="50" max="100"></progress>
+            <div class="back">
+                <div class="innercss"></div>
+
+            </div>
         </div>
         <div class="progress-work">
             <h2>JAVASCRIPT</h2>
-            <progress value="65" max="100"></progress>
+            <div class="back">
+                <div class="innerjs"></div>
+            </div>
         </div>
         <div class="progress-work">
             <h2>WORDPRESS</h2>
-            <progress value="80" max="100"></progress>
+            <div class="back">
+                <div class="innerwp"></div>
+            </div>
         </div>
     </div>
 
