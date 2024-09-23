@@ -96,6 +96,55 @@ ul :last-child {
     color: white;
     margin-right: 3rem;
 }
+.black{
+    color: rgb(0, 0, 0);
+}
+.white{
+    color: white;
+}
+#icon{
+    font-size: 2rem;
+    color: rgb(29, 27, 27);
+    margin: 1rem;
+}
+#icon:hover{
+    color: rgb(255, 255, 255);
+}
+.aboutmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem 0rem;
+}
+.abhead{
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.worksp{
+    color: white;
+    font-size: 2rem;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5rem solid rgba(255, 255, 255, 0.829);
+    border-radius: 0.8rem;
+    background-color: rgba(8, 247, 235, 0.829);
+    width: 90%;
+}
+.inner p{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
 
 .name {
     font-size: 1.5rem;
@@ -252,7 +301,7 @@ ul :last-child {
 }
 
 .beat p {
-    margin: 2rem 0rem;
+    margin: 2rem 0.9rem;
     font-size: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -302,11 +351,15 @@ footer {
 
 .seeoff {
     width: 45%;
-    /* background-color: rgba(8, 247, 235, 0.829); */
-    font-size: 1.2rem;
+    /* background-color: rgba(23, 43, 42, 0.829); */
+    font-size: 1.4rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     margin: 1.5rem;
+}
+.seeoff p{
+    font-weight: bold;
+    /* font-size: 2rem; */
+    line-height: 1.6rem;
 }
 
 .footer-headeing {
@@ -314,6 +367,7 @@ footer {
 
     color: white;
 }
+
 
 @media(max-width:1158px) {
     html {
@@ -455,6 +509,9 @@ footer {
     .seeoff p {
         font-size: 1.1rem;
     }
+    .inner p{
+        font-size: 1.3rem;
+    }
 }
 
 @media(max-width:354px) {
@@ -465,6 +522,9 @@ footer {
     .beat button {
         width: 100%;
     }
+    #icon{
+        font-size: 1.7rem;
+    }
 
 
 }
@@ -472,6 +532,13 @@ footer {
 @media(max-width:320px) {
     html {
         font-size: 80%;
+    }
+    .inner p{
+        font-size: 1.3rem;
+    }
+    .worksp{
+        font-size: 1.9rem;
+        font-weight: bold;
     }
 }
 
