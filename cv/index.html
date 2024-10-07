@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-GENERATOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="formdis">
+    <div class="form">
+      <div class="heading"><h1>RESUME-GENERATOR</h1></div>
+      <form action="">
+        <div class="fborder">
+          <label for="name">Name <span class="yellowcolon">:</span></label
+          ><br />
+          <input
+            type="text"
+            id="name"
+            class="checkblank"
+            name="name"
+            placeholder="ENTER NAME"
+            required
+          /><br />
+
+          <label for="email">Email <span class="yellowcolon">:</span></label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ENTER EMAIL"
+            required
+          /><br />
+
+          <label for="phone">Phone <span class="yellowcolon">:</span></label
+          ><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="ENTER CONTACT"
+            required
+          /><br />
+
+          <label for="address">Address <span class="yellowcolon">:</span></label
+          ><br />
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="ADDRESS (LONDON, ENGLAND)"
+            required
+          /><br />
+
+            <div class="hide">
+          <label for="dob">Date of Birth <span class="yellowcolon">:</span></label
+          ><br />
+          <input
+            type="date"
+            id="dob" 
+            name="dob"
+            placeholder="DATE OF BIRTH"
+            required
+          /><br />
+        </div>
+
+
+        </div>
+
+        <div class="sborder">
+          <label for="education">Education <span class="yellowcolon">:</span></label
+          ><br />
+          <textarea
+            id="education"
+            name="education"
+            placeholder="EDUCATION DETAILS"
+            rows="3"
+            required
+          ></textarea
+          ><br />
+
+          <label for="experience">Experience <span class="yellowcolon">:</span></label
+          ><br />
+          <textarea
+            id="experience"
+            name="experience"
+            placeholder="ENTER EXPERIENCE"
+            rows="3"
+            required
+          ></textarea
+          ><br />
+
+          <label for="skills">Skills <span class="yellowcolon">:</span></label
+          ><br />
+          <textarea
+            id="skills"
+            name="skills"
+            placeholder="ENTER SKILLS"
+            rows="3"
+            required
+          ></textarea
+          ><br />
+
+          <label for="objective">Objective <span class="yellowcolon">:</span></label
+          ><br />
+          <textarea
+            id="objective"
+            name="objective"
+            placeholder="ENTER OBJECTIVE"
+            rows="3"
+            required
+          ></textarea
+          ><br />
+        </div>
+        <div class="btnarea">
+          <button id="download-pdf">GENERATE</button>
+        </div>
+      </form>
+    </div>
+</div>
+
+<!-- cv -->
+
+<div class="cvdis">
+    <div class="cv" id="cv-content">
+        <div class="mainb"><h1 class="mainHeading namecapitalize"></h1></div>
+        <div class="submain">
+          <div class="submainmarin"><i class="fa-solid fa-phone"></i>&nbsp;<span class="contact"></span></div>
+        <div class="submainmarin"><i class="fa-solid fa-envelope"></i>&nbsp;<span class="gmail"></span></div>
+        <div class="submainmarin"><i class="fa-solid fa-house"></i>&nbsp;<span class="patta"></span></div>
+    </div>
+
+        <h2 class="fix-heading">OBJECTIVE</h2>
+        <p class="innerText innerobj"></p>
+
+        <h2 class="fix-heading">EDUCATION</h2>
+        <p class="innerText inneredu"></p>
+
+        <h2 class="fix-heading">EXPERIENCE</h2>
+        <p class="innerText innerExpi"></p>
+
+        <h2 class="fix-heading">SKILLS</h2>
+        <p class="innerText innerskills"></p>
+    </div>
+</div>
+
+<div class="confirmMessae">
+  <div class="confirmb">
+  <div class="centerconfirm">
+    <i class="fa-solid fa-circle-check"></i>
+  <center><h3>Your CV is generated! Check Downloads</h3></center>
+</div>
+  </div>
+
+</div>
+
+
+      <script src="script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  </body>
+</html>

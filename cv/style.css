@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formdis{
+    background-color: rgb(0, 0, 0);
+    display:block
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-size: 2rem;
+    color: #ffff00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem 0rem;
+}
+.namecapitalize{
+    text-transform: uppercase;
+}
+form input{
+    width: 40rem;
+    height: 6vh;
+    font-weight: bold;
+    color: grey;
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0rem 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0.5rem 0rem;
+}
+form label{
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* margin: 200rem 0rem; */
+}
+.fborder{
+    padding: 0.5rem;
+    border: 0.5rem solid #ffff00;
+}
+.sborder{
+    padding: 0.5rem;
+    border: 0.5rem solid #ffff00;
+    margin-top: 0.5rem;
+}
+form textarea{
+    width: 40rem;
+    font-weight: bold;
+    color: grey;
+    border-radius: 0.1rem;
+    border: none;
+    margin: 0.5rem 0rem;
+
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btnarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    width: 100%;
+}
+.btnarea button{
+    border: 0.2rem solid #ffff00;
+    background-color: #ffff00;
+    color: rgb(26, 23, 23);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.1rem;
+}
+.btnarea button:hover{
+    transform: scale(1.1);
+    /* color: gray;/ */
+    transition: 1s;
+}
+.yellowcolon{
+    color: #ffff00;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+
+
+
+
+
+.cv{
+    margin: 3rem 3rem;
+}
+.cvdis{
+    display: none;
+}
+.mainHeading{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #003366;
+}
+.mainb{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5rem solid #003366;
+    border-bottom: 0.5rem solid #003366;
+}
+.submain{
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333333;
+
+}
+.submain i{
+    color: #333333;
+    /* font-size: 1.2rem; */
+}
+.fix-heading{
+    font-size: 2rem;
+    margin: 0.6rem 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #003366;
+}
+.innerText{
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.confirmMessae{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    position: fixed;
+    background-color: #003366;
+    top: 0%;
+    display: none;
+}
+.centerconfirm{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centerconfirm i{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.centerconfirm h3{
+    /* font-size: 2rem; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.confirmb{
+    border: 1rem solid white;
+    /* border-bottom: 1rem solid white; */
+}
+.submainmarin{
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+@media(max-width:680px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    form input{
+        width: 30rem;
+        font-size: 1rem;
+    }
+    form textarea{
+        width: 30rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width:550px){
+    .heading{
+        font-size: 4vw;
+    }
+    form input{
+        width: 80vw;
+        /* font-size: 1vw; */
+    }
+    .btnarea button{
+        font-size: 4vw;
+    }
+    form label{
+        font-size: 5vw;
+    }
+    form textarea{
+        width: 80vw;
+        /* font-size: 1vw; */
+    }
+    .fborder{
+        border: 0.4rem solid #ffff00;
+    }
+    .sborder{
+        border: 0.4rem solid #ffff00;
+        /* margin-top: 0.4rem; */
+    }
+}
