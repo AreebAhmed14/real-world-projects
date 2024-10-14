@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <div class="container">
+        <div class="row">
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+    </div>
+        <div class="row">
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+    </div>
+        <div class="row">
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+        <div class="box" id="9"></div>
+    </div>
+</div>
+<div class="playervisible">
+    <h1 id="namechange"></h1>
+</div>
+
+
+    <div class="winpage1">
+        <div class="set">
+            <h1 id="winner">PLAYER X WIN</h1>
+            <button onclick="resetBoard()">Play Again</button>
+        </div>
+    </div>
+
+
+    <div class="winpage2">
+        <div class="set">
+            <h1 id="winner">PLAYER O WIN</h1>
+            <button onclick="resetBoard()">Play Again</button>
+        </div>
+    </div>
+
+
+    <div class="winpageD">
+        <div class="set">
+            <h1 id="winner">GAME OVER</h1>
+            <button onclick="resetBoard()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(17, 14, 14);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  .container {
+    /* width: 50rem; */
+    /* height: 90vh; */
+    /* background-color: aqua; */
+    /* margin: auto; */
+    margin-top: 50px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+    /* width: ; */
+    height: 20vh;
+    /* background-color: rgb(155, 32, 32); */
+  }
+  .box {
+    width: 15rem;
+    height: 100%;
+    margin: 0rem 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #00796b;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* border: 0.5rem solid ; */
+    align-items: center;
+    font-size: 8rem;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  .winpage1 {
+    width: 100%;
+    display: none;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(57, 59, 65, 0.8);
+    font-size: 2rem;
+    position: absolute;
+    color: white;
+    top: 0;
+    position: fixed;
+    flex-direction: column;
+  }
+  .winpage2 {
+    width: 100%;
+    display: none;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(57, 59, 65, 0.8);
+    font-size: 2rem;
+    position: absolute;
+    color: white;
+    top: 0;
+    position: fixed;
+    flex-direction: column;
+  }
+  .winpageD {
+    width: 100%;
+    display: none;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(57, 59, 65, 0.8);
+    font-size: 2rem;
+    position: absolute;
+    color: white;
+    top: 0;
+    position: fixed;
+    flex-direction: column;
+  }
+  .winpage1 button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  .winpage2 button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  .winpageD button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  .set {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title {
+    color: #d32f2f;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+  .playervisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 2rem;
+    /* background-color: #0079  6B; */
+    color: #d32f2f;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+    margin: 2rem 0rem;
+  }
+  
+  @media (max-width: 912px) {
+    .box {
+      width: 12rem;
+      font-size: 7rem;
+    }
+  }
+  @media (max-width: 770px) {
+    .box {
+      width: 10rem;
+      /* font-size: 6rem; */
+    }
+  }
+  @media (max-width: 670px) {
+    .box {
+      width: 8rem;
+      margin: 0rem 1rem;
+      font-size: 5.5rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .box {
+      width: 6rem;
+      margin: 0rem 0.5rem;
+    }
+    .playervisible {
+      font-size: 1.5rem;
+    }
+    .title {
+      font-size: 3rem;
+    }
+    .winpage1 {
+      font-size: 1.5rem;
+    }
+    .winpage2 {
+      font-size: 1.5rem;
+    }
+    .winpageD {
+      font-size: 1.5rem;
+    }
+    .winpage1 button{
+      padding: 0.6rem 1rem;
+      font-size: 1.3rem;
+    }
+    .winpage2 button{
+      padding: 0.6rem 1rem;
+      font-size: 1.3rem;
+    }
+    .winpageD button{
+      padding: 0.6rem 1rem;
+      font-size: 1.3rem;
+    }
+  }
+  @media (max-width: 336px) {
+    .box {
+      width: 4.5rem;
+      margin: 0rem 1rem;
+      font-size: 4.5rem;
+    }
+  }
+  
